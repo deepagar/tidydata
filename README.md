@@ -65,6 +65,35 @@ The dataset includes the following files:
   4. Appropriately labels the data set with descriptive variable names. 
   5. From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
 
+Steps undertaken in run_analysis.R:
+====================================
+
+1. Read all the required data
+
+2. Set the column names for test, test subjects, test labels data sets. For this, I used the features.txt file.
+
+[STEPS 3-5 INCLUDE ANSWER TO PART 3, 4 OF THE PROJECT]
+3. Convert the labels column to a column of factors using the activity_labels data set.
+
+4. Set column names for train, train subjects, train labels data sets.
+
+5. Convert the labels column to a column of factors using the activity labels data set.
+
+6. Bind together for the Test data set (named test2): subject, activity labels, main data.
+
+7. Bind together for the Train data set (named train2): subject, activity labels, main data.
+
+8. Merge the Test2 and Train2 datasets together. [ANSWER TO PART 1 OF THE PROJECT]
+
+9 Extract the relevant columns only (the columns whose names contain "mean", "std"; and of course the first two columns for "subject" and "labels"). [ANSWER TO PART 2 OF THE PROJECT]
+
+[STEPS 10-11 ARE ANSWER TO PART 5 OF THE PROJECT]
+10. Calculate means for each subject and each activity.
+
+11. Rename columns 1 and 2 (since they were renamed in the grouping above).
+
+12. Write output tidy data set.
+
 Notes: 
 ======
 - Features are normalized and bounded within [-1,1].
