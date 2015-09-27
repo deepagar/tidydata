@@ -56,7 +56,7 @@ The complete list of variables in the final tidy data are:
 6. tBodyAcc-std()-X
 7. tBodyAcc-std()-Y
 8. tBodyAcc-std()-Z
-9. tGravityAcc-mean()-X
+9. tGravityAcc-mean()-Xgjhrghg
 10. tGravityAcc-mean()-Y
 11. tGravityAcc-mean()-Z
 12. tGravityAcc-std()-X
